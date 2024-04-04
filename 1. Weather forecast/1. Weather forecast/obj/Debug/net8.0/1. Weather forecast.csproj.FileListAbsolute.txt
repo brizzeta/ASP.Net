@@ -1,0 +1,27 @@
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\bin\Debug\net8.0\appsettings.Development.json
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\bin\Debug\net8.0\appsettings.json
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\bin\Debug\net8.0\1. Weather forecast.staticwebassets.runtime.json
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\bin\Debug\net8.0\1. Weather forecast.exe
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\bin\Debug\net8.0\1. Weather forecast.deps.json
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\bin\Debug\net8.0\1. Weather forecast.runtimeconfig.json
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\bin\Debug\net8.0\1. Weather forecast.dll
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\bin\Debug\net8.0\1. Weather forecast.pdb
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\1. Weather forecast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\1. Weather forecast.AssemblyInfoInputs.cache
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\1. Weather forecast.AssemblyInfo.cs
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\1. Weather forecast.csproj.CoreCompileInputs.cache
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\1. Weather forecast.MvcApplicationPartsAssemblyInfo.cache
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\1. Weather forecast.sourcelink.json
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\staticwebassets.build.json
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\staticwebassets.development.json
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\staticwebassets\msbuild.1. Weather forecast.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\staticwebassets\msbuild.build.1. Weather forecast.props
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.1. Weather forecast.props
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.1. Weather forecast.props
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\scopedcss\bundle\1. Weather forecast.styles.css
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\1. Weather forecast.dll
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\refint\1. Weather forecast.dll
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\1. Weather forecast.pdb
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\1. Weather forecast.genruntimeconfig.cache
+C:\Technologies\С#\ado net\1. Weather forecast\1. Weather forecast\obj\Debug\net8.0\ref\1. Weather forecast.dll

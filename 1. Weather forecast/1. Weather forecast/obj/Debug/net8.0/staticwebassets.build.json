@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "Th3qE4SypTmFIoqjtZBJ9axsL07WiyQoEE0rMBuk46A=",
+  "Source": "1. Weather forecast",
+  "BasePath": "_content/1. Weather forecast",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "1. Weather forecast\\wwwroot",
+      "Source": "1. Weather forecast",
+      "ContentRoot": "C:\\Technologies\\С#\\ado net\\1. Weather forecast\\1. Weather forecast\\wwwroot\\",
+      "BasePath": "_content/1. Weather forecast",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Technologies\\С#\\ado net\\1. Weather forecast\\1. Weather forecast\\wwwroot\\htmlpage.html",
+      "SourceId": "1. Weather forecast",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Technologies\\С#\\ado net\\1. Weather forecast\\1. Weather forecast\\wwwroot\\",
+      "BasePath": "_content/1. Weather forecast",
+      "RelativePath": "htmlpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\htmlpage.html"
+    }
+  ]
+}

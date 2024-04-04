@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+
+        .container-flex {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .weather-info {
+            padding: 20px;
+            margin-bottom: 30px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            flex: 1;
+            box-sizing: border-box;
+        }
+
+        .input-info {
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: 0;
+        }
+
+        #searchInput {
+            padding: 8px;
+            width: 200px;
+        }
+
+        #searchButton {
+            width: 60px;
+            height: 40px;
+            color: white;
+            background-color: cadetblue;
+            border-radius: 10px;
+            border: none;
+            margin-left: 20px;
+        }
+
+        .input, .input:focus {
+            outline: none;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            border-bottom: 2px solid #008080;
+        }
+
+        h3, h4, thead {
+            color: #008080;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+
+        .container-error {
+            text-align: center;
+            padding: 50px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            flex: 1;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .weather-info table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .weather-info th {
+            background-color: #f2f2f2;
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .weather-info td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .weather-info tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="container-flex">
+            <h3>Weather</h3>
+            <div class="input-info">
+                <input type="text" id="countryInput" placeholder="Country" class="input">
+                <input type="text" id="cityInput" placeholder="City" class="input">
+                <button id="searchButton">Search</button>
+            </div>
+        </div>
+
+        <div id="container-currentWeather"></div>
+
+        <div id="container-hourlyWeather"></div>
+    </div>
+
+    <script>
+        document.getElementById('searchButton').addEventListener('click', function() {
+            let country = document.getElementById('countryInput').value;
+            let city = document.getElementById('cityInput').value;
+            let apiKey = 'ceacb7e8c238af975c3a73057e9f80c3';
+
+            let currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiKey}&units=metric`;
+            let hourlyWeatherUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city},${country}&appid=${apiKey}&units=metric`;
+
+            // AJAX запрос для текущей погоды
+            let currentWeatherRequest = new XMLHttpRequest();
+            currentWeatherRequest.open('GET', currentWeatherUrl, true);
+            currentWeatherRequest.onload = function() {
+                if (currentWeatherRequest.status >= 200 && currentWeatherRequest.status < 400) {
+                    let data = JSON.parse(currentWeatherRequest.responseText);
+                    let currentWeather = document.getElementById('container-currentWeather');
+                    currentWeather.innerHTML = `
+                        <div class="weather-info">
+                            <div class="container-flex">
+                                <h3>${data.sys.country} • ${data.name}</h3>
+                                <h3>${new Date().toLocaleDateString()}</h3>
+                            </div>
+                            <div class="container-flex">
+                                <div>
+                                    <div>
+                                        <h4>${data.weather[0].description}</h4>
+                                    </div>
+
+                                    <div class="grid-container">
+                                        <div>
+                                            <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png" alt="Погода">
+                                        </div>
+                                        <div>
+                                            <h1>${data.main.temp}°C</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='grid-container'>
+                                    <p>Min temperature</p>
+                                    <p>${data.main.temp_min}°C</p>
+                                    <p>Max temperature</p>
+                                    <p>${data.main.temp_max}°C</p>
+                                    <p>Wind speed (km/h)</p>
+                                    <p>${data.wind.speed}</p>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+
+
+                    // AJAX запрос для почасовой погоды
+                    let hourlyWeatherRequest = new XMLHttpRequest();
+                    hourlyWeatherRequest.open('GET', hourlyWeatherUrl, true);
+                    hourlyWeatherRequest.onload = function () {
+                        if (hourlyWeatherRequest.status >= 200 && hourlyWeatherRequest.status < 400) {
+                            let data = JSON.parse(hourlyWeatherRequest.responseText);
+                            let hourlyWeatherContainer = document.getElementById('container-hourlyWeather');
+                            hourlyWeatherContainer.innerHTML = '';
+
+                            let hourlyWeather = document.createElement('div');
+                            hourlyWeather.classList.add('weather-info');
+
+                            let h3 = document.createElement('h3');
+                            h3.textContent = "Hourly";
+
+                            let table = document.createElement('table');
+                            let thead = document.createElement('thead');
+                            let tbody = document.createElement('tbody');
+
+                            let headerRow = document.createElement('tr');
+                            let descriptions = ["Forecast", "Temp (°C)", "Wind (m/s)"];
+                            let dayOfWeek = new Date().toLocaleDateString('en-US', { weekday: 'long' });
+
+                            for (let i = 0; i < 7; i++) {
+                                let item = data.list[i];
+                                let headerCell = document.createElement('th');
+                                headerCell.textContent = new Date(item.dt * 1000).toLocaleTimeString();
+                                if (i == 0) {
+                                    headerCell.textContent = dayOfWeek;
+                                }
+                                headerRow.appendChild(headerCell);
+                            }
+                            thead.appendChild(headerRow);
+
+                            for (let j = 0; j < descriptions.length; j++) {
+                                let row = document.createElement('tr');
+                                let descriptionCell = document.createElement('td');
+                                descriptionCell.textContent = descriptions[j];
+                                row.appendChild(descriptionCell);
+
+                                for (let k = 0; k < 6; k++) {
+                                    let item = data.list[k];
+                                    let dataCell = document.createElement('td');
+                                    if (j === 0) {
+                                        dataCell.textContent = item.weather[0].description;
+                                    } else if (j === 1) {
+                                        dataCell.textContent = item.main.temp;
+                                    } else {
+                                        dataCell.textContent = item.wind.speed;
+                                    }
+                                    row.appendChild(dataCell);
+                                }
+                                tbody.appendChild(row);
+                            }
+
+                            table.appendChild(thead);
+                            table.appendChild(tbody);
+                            hourlyWeather.appendChild(h3);
+                            hourlyWeather.appendChild(table);
+                            hourlyWeatherContainer.appendChild(hourlyWeather);
+                        }
+                        else {
+                            Error();
+                        }
+                    };
+                    hourlyWeatherRequest.send();
+                } else {
+                    Error();
+                }
+            };
+            currentWeatherRequest.send();
+
+            function Error() {
+                let currentWeather = document.getElementById('container-currentWeather');
+                let hourlyWeatherContainer = document.getElementById('container-hourlyWeather');
+                hourlyWeatherContainer.innerHTML = '';
+
+                currentWeather.innerHTML = `
+                    <div class="container-error">
+                        <h1>404</h1>
+                        <h3>NOT FOUND</h3>
+                        <h4>Please, enter a different country or city</h4>
+                    </div>
+                `;
+                }
+            });
+    </script>
+
+</body>
+</html>
