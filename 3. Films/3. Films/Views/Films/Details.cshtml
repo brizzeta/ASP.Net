@@ -1,0 +1,33 @@
+﻿@model _3._Films.Models.Film
+
+@{
+    ViewData["Title"] = "Детали фильма";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <p>
+        Название: @Html.DisplayFor(modelItem => Model.Name)
+    </p>
+    <img src="@Model.Poster" alt="Постер">
+    <p>
+        Жанр:
+        @foreach (var filmGenre in Model.Genres)
+        {
+            <span>@filmGenre.Name</span>
+            @(filmGenre == Model.Genres.Last() ? "" : ", ")
+        }
+    </p>
+    <p>
+        Режиссер: @Html.DisplayFor(modelItem => Model.Director)
+    </p>
+    <p>
+        Год: @Html.DisplayFor(modelItem => Model.Year)
+    </p>
+    <p>
+        @Html.DisplayFor(modelItem => Model.Description)
+    </p>
+    <div>
+        <a asp-action="Index">Назад к списку</a>
+    </div>
+</div>

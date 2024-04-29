@@ -1,0 +1,44 @@
+﻿@model IEnumerable<_3._Films.Models.Film>
+
+@{
+    ViewData["Title"] = "10 лучших фильмов";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>10 лучших фильмов</h1>
+
+<p>
+    <a asp-action="Create">Добавить фильм</a>
+</p>
+
+@foreach (var item in Model)
+{
+    <div>
+        <p>
+            Название: @Html.DisplayFor(modelItem => item.Name)
+        </p>
+        <img src="@item.Poster" alt="Постер">
+        <p>
+            Жанр:
+            @foreach (var filmGenre in item.Genres)
+            {
+                <span>@filmGenre.Name</span>
+                @(filmGenre == item.Genres.Last() ? "" : ", ")
+            }
+        </p>
+        <p>
+            Режиссер: @Html.DisplayFor(modelItem => item.Director)
+        </p>
+        <p>
+            Год: @Html.DisplayFor(modelItem => item.Year)
+        </p>
+        <p>
+            @Html.DisplayFor(modelItem => item.Description)
+        </p>
+        <p>
+            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+        </p>
+    </div>
+}

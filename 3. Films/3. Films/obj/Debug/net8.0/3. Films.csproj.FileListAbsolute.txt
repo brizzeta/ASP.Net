@@ -1,0 +1,72 @@
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\appsettings.Development.json
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\appsettings.json
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\3. Films.staticwebassets.runtime.json
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\3. Films.exe
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\3. Films.deps.json
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\3. Films.runtimeconfig.json
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\3. Films.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\3. Films.pdb
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Azure.Core.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Azure.Identity.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.csproj.AssemblyReference.cache
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.GeneratedMSBuildEditorConfig.editorconfig
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.AssemblyInfoInputs.cache
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.AssemblyInfo.cs
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.csproj.CoreCompileInputs.cache
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.MvcApplicationPartsAssemblyInfo.cache
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.RazorAssemblyInfo.cache
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.RazorAssemblyInfo.cs
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.sourcelink.json
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\staticwebassets.build.json
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\staticwebassets.development.json
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\staticwebassets\msbuild.3. Films.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\staticwebassets\msbuild.build.3. Films.props
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.3. Films.props
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.3. Films.props
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\scopedcss\bundle\3. Films.styles.css
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\scopedcss\projectbundle\3. Films.bundle.scp.css
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.csproj.CopyComplete
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\refint\3. Films.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.pdb
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\3. Films.genruntimeconfig.cache
+C:\Technologies\С#\asp net\3. Films\3. Films\obj\Debug\net8.0\ref\3. Films.dll
+C:\Technologies\С#\asp net\3. Films\3. Films\bin\Debug\net8.0\Newtonsoft.Json.dll
