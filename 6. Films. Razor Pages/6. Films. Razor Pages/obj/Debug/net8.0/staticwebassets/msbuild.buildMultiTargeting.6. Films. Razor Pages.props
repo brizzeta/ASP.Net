@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\6. Films. Razor Pages.props" />
+</Project>

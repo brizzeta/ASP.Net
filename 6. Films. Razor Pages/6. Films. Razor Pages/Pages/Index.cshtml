@@ -1,0 +1,38 @@
+﻿@page
+@model _6._Films._Razor_Pages.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "10 лучших фильмов";
+}
+
+<h1>10 лучших фильмов</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+@foreach (var item in Model.Film)
+{
+    <div>
+        <p>
+            Название: @Html.DisplayFor(modelItem => item.Name)
+        </p>
+        <img src="@item.Poster" alt="Постер">
+        <p>
+            Жанр: @Html.DisplayFor(modelItem => item.Genres)
+        </p>
+        <p>
+            Режиссер: @Html.DisplayFor(modelItem => item.Director)
+        </p>
+        <p>
+            Год: @Html.DisplayFor(modelItem => item.Year)
+        </p>
+        <p>
+            @Html.DisplayFor(modelItem => item.Description)
+        </p>
+        <p>
+            <a asp-page="Edit" asp-route-id="@item.Id">Edit</a> |
+            <a asp-page="Details" asp-route-id="@item.Id">Details</a> |
+            <a asp-page="Delete" asp-route-id="@item.Id">Delete</a>
+        </p>
+    </div>
+}
